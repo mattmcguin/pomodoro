@@ -34,3 +34,35 @@
         transform: rotate(360deg);
     }
 }
+
+.button-container {
+    width: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: .05rem;
+    outline: none;
+}
+
+.pause {
+    background-color: #FF9902;
+    border-color: #FF9902;
+}
+
+.stop {
+    background-color: #CB0000;
+    border-color: #CB0000;
+}
+
+.start {
+    background-color: #009900;
+    border-color: #009900;
+}
